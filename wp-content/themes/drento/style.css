@@ -248,8 +248,12 @@ table {
 td,
 th {
 	padding: 0.3em;
+<<<<<<< HEAD
 	border: 1px solid rgba(64, 64, 64, 0.1);
 	text-align:left;
+=======
+	border: 0px solid white;
+>>>>>>> 0ba23f056d01fcec4403ef3bf34a088f46445e3e
 }
 
 /*--------------------------------------------------------------
@@ -425,8 +429,15 @@ table {
 
 	margin: 0 0 1.5em;
 	width: 100%;
+<<<<<<< HEAD
 	border: 1px solid red;
+=======
+	border: 0px solid white;
+>>>>>>> 0ba23f056d01fcec4403ef3bf34a088f46445e3e
 }
+
+
+
 
 .spaceLeft {
 	margin-left: 0.5em;
@@ -1053,7 +1064,7 @@ header.site-header {
 	position: relative;
 }
 .site-branding {
-	text-align: center;
+	text-align: left;
 	width: 100%;
 }
 .site-branding .site-title,
@@ -1074,7 +1085,7 @@ header.site-header {
 	font-weight: 300;
     font-size: 14px;
 	line-height: 1.5;
-    border-top: 3px solid #e2ae69;
+    border-top: 5px solid #e2ae69;
     display: inline-block;
     padding-top: 0.3em;
 	color: #b9b9b9;
