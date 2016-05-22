@@ -57,18 +57,31 @@
 			<div class="opacityBox"></div>
 		<?php endif; ?>
 		<div class="site-branding">
-			<?php
-			if ( is_front_page() && is_home() ) : ?>
-				<h1 class="site-title"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a></h1>
-			<?php else : ?>
-				<p class="site-title"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a></p>
-			<?php
-			endif;
-			$description = get_bloginfo( 'description', 'display' ); 
-			if ( $description || is_customize_preview() ) : ?>
-			<p class="site-description"><?php echo $description; ?></p>
-			<?php endif; ?>
-		</div><!-- .site-branding -->
+<table   >
+
+  <tr>
+    <th width="20%"rowspan="2"><img align="right" width="75" heights="75" src="./logoaz.png"></th>
+    <th text-align="leftt"  width="80%">         <?php
+                        if ( is_front_page() && is_home() ) : ?>
+                                <h1 style="color:darkred" class="site-title"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a></h1>
+                        <?php else : ?>
+                                <p  class="site-title"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a></p>
+</th>
+  </tr>
+  <tr>
+    <td>  <?php
+                        endif;
+                        $description = get_bloginfo( 'description', 'display' );
+                        if ( $description || is_customize_preview() ) : ?>
+                        <p class="site-description"><?php echo $description; ?></p>
+                        <?php endif; ?>
+</td>
+  </tr>
+
+
+</table>
+		</div>
+<!-- .site-branding -->
 		
 		<?php if ($showSocial == 1 ) : ?>
 		<div class="socialLine">
