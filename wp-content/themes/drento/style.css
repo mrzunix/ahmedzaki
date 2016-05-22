@@ -249,6 +249,7 @@ td,
 th {
 	padding: 0.3em;
 	border: 1px solid rgba(64, 64, 64, 0.1);
+	text-align:left;
 }
 
 /*--------------------------------------------------------------
@@ -421,9 +422,10 @@ img {
 }
 
 table {
+
 	margin: 0 0 1.5em;
 	width: 100%;
-	border: 1px solid rgba(64, 64, 64, 0.1);
+	border: 1px solid red;
 }
 
 .spaceLeft {
