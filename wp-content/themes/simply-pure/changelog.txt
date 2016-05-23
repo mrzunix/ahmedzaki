@@ -1,0 +1,65 @@
+/************************************************************************************/
+/*	Changelog for Simply Pure WordPress Theme	*/		
+/************************************************************************************/	
+/**
+ * 26/11/2015 - version 1.1.5
+ */
+1. Fixed pagination
+2. added word-wrap for posts
+3. added support for post with titles displaying permalinks in post Date
+4. Fixing title returning twice.
+5. added CSS for Gallery
+
+/**
+ * 26/11/2015 - version 1.1.4
+ */
+1. Adding PureCSS unminified files and License
+2. Changed prefix 'pure' to 'simply_pure'
+3. Moved Comment fields to functions.php
+4. escaping $tag in comments.php
+5. Moving comments reply script from header.php to functions.php
+6. removing html5 support for search form
+
+
+/**
+ * 20/11/2015 - version 1.1.3
+ */
+1. Translable searchbutton & Loading translations
+2. Sanitizing Values in customizer
+3. changing functions prefix from 'purecss' to 'simply_pure'
+
+
+/**
+ * 19/11/2015 - version 1.1.2
+ */
+1. Correct some things for localization (by Sebseb01)
+2. Propose a .pot file (by Sebseb01)
+3. Add first version of a fr_FR.po (by Sebseb01)
+4. Update to purecss 0.6 (grids.css is needed by a bug) (by Sebseb01)
+5. Small bugfixes
+6. Changed Text domain from 'purecss' to 'simply-pure'
+7. Added subtext color and Fixed Header (text & image) in Customizer
+8. Added search.php
+
+/*
+ *	24/06/2015 - version 1.1.1	
+ */
+1. Fixed author avatar beside Post title
+2. Removed commented Code
+
+/**
+ * 28/01/2015 - version 1.1
+ */
+
+1. Changed footer text and link in footer.php ( also escaped url using 'esc_uri()' )
+2. Added Avatars beside Post title (also toggle option in WP Customizer)
+3. Changed Text domain from 'purecss_theme' to 'purecss'
+4. Enqueued script.js instead of using it inline
+5. Fixed default values not getting set on first install
+6. Changed Screenshot
+
+/**
+ * 2/11/2014 - version 1.0
+ */
+
+1. Initial Release
