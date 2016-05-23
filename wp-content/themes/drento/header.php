@@ -16,6 +16,17 @@
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 <link rel="profile" href="http://gmpg.org/xfn/11">
 <link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.4.0/css/font-awesome.min.css" rel='stylesheet' type='text/css'>
+    <link href="https://fonts.googleapis.com/css?family=Lato:100,300,400,700" rel='stylesheet' type='text/css'>
+    <link href="https://fonts.googleapis.com/css?family=Lato:100" rel="stylesheet" type="text/css">
+    <link href="http://fonts.googleapis.com/earlyaccess/droidarabicnaskh.css" rel="stylesheet" type="text/css" />
+<script src='https://www.google.com/recaptcha/api.js'></script>
+
+    <!-- Styles -->
+<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet">
+
+<link href='https://fonts.googleapis.com/css?family=Lobster|Pacifico|Kaushan+Script|Courgette|Playball|Pinyon+Script|Damion' rel='stylesheet' type='text/css'>
+<link href='https://fonts.googleapis.com/css?family=Candal|Bree+Serif|Rokkitt' rel='stylesheet' type='text/css'>
 
 <?php wp_head(); ?>
 </head>
@@ -60,12 +71,12 @@
 <table   >
 
   <tr>
-    <th width="20%"rowspan="2"><img align="right" width="75" heights="75" src="./logoaz.png"></th>
-    <th text-align="leftt"  width="80%">         <?php
+    <th width="40%"rowspan="2"><img align="right" width="75" heights="75" src="http://ahmedzaki.info/logoaz.png"></th>
+    <th text-align="leftt"  width="60%">         <?php
                         if ( is_front_page() && is_home() ) : ?>
-                                <h1 style="color:darkred" class="site-title"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a></h1>
+			<p class="site-title"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a></p>
                         <?php else : ?>
-                                <p  class="site-title"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a></p>
+                                <p class="site-title"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a></p>
 </th>
   </tr>
   <tr>
@@ -73,7 +84,7 @@
                         endif;
                         $description = get_bloginfo( 'description', 'display' );
                         if ( $description || is_customize_preview() ) : ?>
-                        <p class="site-description"><?php echo $description; ?></p>
+                        <p  class="site-description" ><?php echo $description; ?></p>
                         <?php endif; ?>
 </td>
   </tr>

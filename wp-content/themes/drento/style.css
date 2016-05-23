@@ -465,12 +465,12 @@ input[type="submit"] {
     color: #404040;
     margin: 0.2em 0;
     font-weight: 700;
-	border-radius: 10px;
+//	border-radius: 10px;
 	text-transform: uppercase;
-    border: 3px solid #404040;
-	-o-transition: all .3s ease-in-out;
-    -moz-transition: all .3s ease-in-out;
-    -webkit-transition: all .3s ease-in-out;
+//    border: 3px solid #404040;
+//	-o-transition: all .3s ease-in-out;
+ //   -moz-transition: all .3s ease-in-out;
+  //  -webkit-transition: all .3s ease-in-out;
     transition: all .3s ease-in-out;
 }
 
@@ -486,9 +486,9 @@ button:active,
 input[type="button"]:active,
 input[type="reset"]:active,
 input[type="submit"]:active {
-	border: 3px solid transparent;
+//	border: 3px solid transparent;
     color: #ededed;
-    background: #404040;
+  //  background: #404040;
 }
 
 input[type="text"],
@@ -513,7 +513,7 @@ textarea {
     border-radius: 10px;
     width: 100%;
     outline: none;
-    background: #ededed;
+    background: #f9f9f9;
 	-o-transition: border .3s ease-in-out;
     -moz-transition: border .3s ease-in-out;
     -webkit-transition: border .3s ease-in-out;
@@ -609,7 +609,7 @@ a:active {
 	font-family: 'Montserrat', sans-serif;
 	display: block;
     width: 100%;
-    margin-top: 5em;
+ //   margin-top: 5em;
     border-top: 1px solid #ededed;
     border-bottom: 1px solid #ededed;
 }
@@ -949,6 +949,10 @@ a:active {
 	clear: both;
 }
 
+
+.site-content {
+margin:-30px;
+}
 /*--------------------------------------------------------------
 # Widgets
 --------------------------------------------------------------*/
@@ -1074,22 +1078,22 @@ header.site-header {
 .site-branding .site-title {
 	font-weight: 400;
 	line-height: 1.4;
-    text-transform: uppercase;
-    letter-spacing: 5px;
-    font-size: 45px;
+        padding-left:5px;
+        font-size: 45px;
+    font-family: 'Lobster', cursive;
+
 }
 .site-branding .site-title a {
 	color: #404040;
 }
 .site-branding .site-description {
 	font-weight: 300;
-    font-size: 14px;
-	line-height: 1.5;
-    border-top: 5px solid #e2ae69;
+    padding-left:5px;
+padding-top:-10px;
     display: inline-block;
-    padding-top: 0.3em;
 	color: #b9b9b9;
-	letter-spacing: 1px;
+font-family: 'Bree Serif', cursive;
+font-size:18px;
 }
 .drentoContentBox .entry-featuredImg {
 	width: 100%;
@@ -1383,11 +1387,11 @@ footer.site-footer {
     display: inline-block;
 	position: relative;
     background: transparent;
-    color: #404040;
+ //   color: #404040;
     margin: 0.2em 0;
     font-weight: 700;
-    border: 3px solid #404040;
-	border-radius: 10px;
+  //  border: 3px solid #404040;
+//	border-radius: 10px;
 	-o-transition: all .3s ease-in-out;
     -moz-transition: all .3s ease-in-out;
     -webkit-transition: all .3s ease-in-out;
@@ -1473,9 +1477,9 @@ footer.site-footer {
 .site-main .navigation.pagination a:hover,
 .comment-navigation .nav-previous a:hover,
 .comment-navigation .nav-next a:hover {
-	border: 3px solid transparent;
+//	border: 3px solid transparent;
 	color: #ededed;
-	background: #404040;
+//	background: #404040;
 }
 .read-more:hover a {
 	color: #ededed;
@@ -1744,7 +1748,6 @@ h3.widget-title {
 	margin: 0 1em;
 }
 .comment-notes {
-	border-top: 3px solid #e2ae69;
     display: inline-block;
     margin: 1.5em 0 0;
     padding-top: 0.5em;
@@ -2194,3 +2197,6 @@ object {
 		font-size: 1em;
 	}
 }
+
+
+
