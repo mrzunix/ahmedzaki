@@ -14,10 +14,11 @@
 
 	<footer id="colophon" class="site-footer smallPart" role="contentinfo">
 		<div class="site-info">
-			<a href="<?php echo esc_url( __( 'https://wordpress.org/', 'drento' ) ); ?>"><?php printf( esc_html__( 'Proudly powered by %s', 'drento' ), 'WordPress' ); ?></a>
+<p> Powered by 
+
 			<span class="sep"> | </span>
-			<?php printf( esc_html__( 'Theme: %1$s by %2$s.', 'drento' ), 'Drento', '<a target="_blank" href="http://crestaproject.com/downloads/drento/" rel="designer" title="CrestaProject">CrestaProject</a>' ); ?>
-		</div><!-- .site-info -->
+<a href="http://www.ahmedzaki.info" target="_blank" >Ahmed Zaki</a>
+	</p>	</div><!-- .site-info -->
 	</footer><!-- #colophon -->
 </div><!-- #page -->
 <a href="#top" id="toTop"><i class="fa fa-angle-up fa-3x"></i></a>
